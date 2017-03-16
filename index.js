@@ -27,9 +27,9 @@ $(document).ready(function(){
   
   function checkVictory(player){
     //top row  check
-		if($("#1").text() == $("#2").text() && $("#2").text() == $("#3").text() && $("#1").text() == player){
-			alert("WINNER IS " + player);
-		}
+    if($("#1").text() == $("#2").text() && $("#2").text() == $("#3").text() && $("#1").text() == player){
+      alert("WINNER IS " + player);
+    }
     //left column check
     if($("#4").text() == $("#5").text() && $("#5").text() == $("#6").text() && $("#5").text() == player){
       alert("WINNER IS " + player);
